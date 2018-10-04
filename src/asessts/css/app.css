@@ -9,9 +9,10 @@ body{
 }
 
 .nav{
-    height: 3rem;
+    height: 3.666666666666664rem;
     background-color: black;
     width: 100%;
+    border-bottom: 0.5px solid white;
 }
 .nav{
     color: white;
@@ -92,21 +93,22 @@ li.right{
 }
 
 .row{
+    height: 38rem;
     display:flex;
 }
 
 .sidebar{
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-color: black;
     box-sizing: border-box;
     float: left;
 }
 
 .body{
-    height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    height: 100%;
     box-sizing: border-box;
     float: right;
+    background-color: blueviolet;
 }
