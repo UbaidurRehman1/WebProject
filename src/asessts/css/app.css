@@ -112,3 +112,26 @@ li.right{
     float: right;
     background-color: blueviolet;
 }
+
+.sidebar ul{
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    text-decoration: none;
+}
+.sidebar li a:hover{
+    background-color: white;
+    color: black;
+}
