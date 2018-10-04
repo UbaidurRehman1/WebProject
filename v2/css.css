@@ -192,14 +192,7 @@ table td{
 	padding-bottom: 2px;
 }
 
-.boxes img{
 
-	height: 30px;
-	width: 30px;
-	border: 0;
-	margin-right: 5px;
-	float: left;
-}
 
 .clear {
 	clear: both;
@@ -217,12 +210,12 @@ table td{
 }
 
 .text{
-	text-align: right;
-	margin: 0;
-	display: inline;
-	border: 0;
-	line-height: 30px;
-	padding: 0px;
+	text-align: center	;
+	/*margin: 0;*/
+	/*display: inline;*/
+	/*border: 0;*/
+	/*line-height: 30px;*/
+	/*padding: 0px;*/
 	
 	
 }
@@ -230,5 +223,15 @@ table td{
 .value{
 	text-align: center;
 	border: 0;
-	display: inline;
+	/*display: inline;*/
+}
+
+.boxes img{
+
+	height: 60px;
+	width: 60px;
+	border: 0;
+	margin-right: 5px;
+	margin-top: 20px;
+	float: left;
 }
