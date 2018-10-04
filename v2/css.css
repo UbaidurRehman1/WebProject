@@ -85,6 +85,11 @@ html {
 	
 }
 
+.menu a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
 .menu li:hover {
 	background-color: #0099cc;
 }
