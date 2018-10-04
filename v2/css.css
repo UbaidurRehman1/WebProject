@@ -214,7 +214,7 @@ table td{
 	/*margin: 0;*/
 	/*display: inline;*/
 	/*border: 0;*/
-	/*line-height: 30px;*/
+	line-height: 25px;
 	/*padding: 0px;*/
 	
 	
@@ -228,8 +228,8 @@ table td{
 
 .boxes img{
 
-	height: 60px;
-	width: 60px;
+	height: 80px;
+	width: 80px;
 	border: 0;
 	margin-right: 5px;
 	margin-top: 20px;
