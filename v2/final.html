@@ -6,8 +6,252 @@
 <!-- ****** step 1: -->
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="css.css">
 <style>
+
+/* ******* step 2: box sizing */
+* {
+	box-sizing: border-box;
+}
+
+/* ******* step 3: box sizing */
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+	.sidebar {
+    		width: 100%;
+    		height: auto;
+    		position: relative;
+  	}
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	.col-star{width: 35.4125%;}
+}
+
+/* ******* step 4: clear both */
+[class*="col-"] {
+	float: left;
+	padding: 5px;
+}
+
+/* ******* step 5: clear both */
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+html {
+	font-family: "Lucida Sans", sans-serif;
+	background-color: #f1f1f1;
+}
+.header {
+	background-color: #9933cc;
+	color: #ffffff;
+	padding: 5px;
+}
+.menu ul {
+	border-radius: 10px;
+	text-shadow: 0 1px 1px black;
+	list-style-type: none;
+	margin: 0;
+	background-color :#1707f2;
+	padding: 1em;
+	height: 100%;
+}
+.menu li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color :#1707f2;
+	color: #ffffff;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.menu li:hover {
+	background-color: #0099cc;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.aside {
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+.dusk {
+	 margin:1.04125%;
+	 float: right; 
+	 
+}
+.footer {
+	background-color: #0099cc;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+}
+.nav{
+    height: 3.666666666666664rem;
+    background-color: black;
+    width: 100%;
+    border-bottom: 0.5px solid white;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 4rem;
+    overflow: hidden;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav li  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.222222223rem;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: white;
+    color: black;
+}
+table{
+    text-align: left;
+}
+
+table tr:nth-child(odd){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 4px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #f1f1f1;
+    color: black;
+    font-weight: 10px;
+    padding-left: 12px;
+}
+table td{
+	padding-left: 12px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+.box-in {
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	height: 170px;
+	color: black;
+	/*text-align: right;*/
+	/*font-size: 14px;*/
+	box-shadow: 0 2px 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+
+.text{
+	text-align: center	;
+	/*margin: 0;*/
+	/*display: inline;*/
+	/*border: 0;*/
+	line-height: 25px;
+	/*padding: 0px;*/
+	
+	
+}
+
+.value{
+	text-align: center;
+	border: 0;
+	/*display: inline;*/
+}
+
+.boxes img{
+
+	height: 80px;
+	width: 80px;
+	border: 0;
+	margin-right: 5px;
+	margin-top: 20px;
+	float: left;
+}
+
 
 </style>
 </head>
@@ -118,14 +362,14 @@
 
 		<div class="col-star col-m-12 dusk" >
 			<div class="aside">
-				<img src="pic.jpg" style="width: 100%">
+				<img src="https://raw.githubusercontent.com/UbaidurRehman1/WebProject/master/v2/pic.JPG" style="width: 100%">
 			</div>
 		</div>
 
 
 		<div class="col-star col-m-12 dusk">
 			<div class="aside">
-				<img src="pic.jpg" style="width: 100%">
+				<img src="https://raw.githubusercontent.com/UbaidurRehman1/WebProject/master/v2/pic.JPG" style="width: 100%">
 			</div>
 		</div>
 
