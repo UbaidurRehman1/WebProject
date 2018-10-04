@@ -55,6 +55,7 @@ li.right{
     clear: both;
 }
 
+/*For Desktop*/
 .row .col-1{
     width: 8.33%;
 }
@@ -62,34 +63,34 @@ li.right{
     width: 16.66%;
 }
 .row .col-3{
-    width: 24.99%;
+    width: 25%;
 }
 .row .col-4{
-    width: 33.32%;
+    width: 33.33%;
 }
 .row .col-5{
-    width: 41.65%;
+    width: 41.66%;
 }
 .row .col-6{
-    width: 49.98%;
+    width: 50%;
 }
 .row .col-7{
-    width: 58.31%;
+    width: 58.33%;
 }
 .row .col-8{
-    width: 66.64%;
+    width: 66.66%;
 }
 .row .col-9{
-    width: 74.97%;
+    width: 75%;
 }
 .row .col-10{
-    width: 83.3%;
+    width: 83.33%;
 }
 .row .col-11{
-    width: 91.63%;
+    width: 91.66%;
 }
 .row .col-12{
-    width: 99.96%;
+    width: 100%;
 }
 
 .row{
