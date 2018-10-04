@@ -186,3 +186,40 @@ table td{
 	padding-top: 4px;
 	padding-bottom: 2px;
 }
+
+.boxes img{
+
+	height: 30px;
+	width: 30px;
+	float: left;
+	border: solid 1px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.box-in {
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	color: black;
+	/*text-align: right;*/
+	/*font-size: 14px;*/
+	box-shadow: 0 2px 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+
+.text{
+	text-align: right;
+	border: solid 1px;
+	padding: 0px;
+	
+	
+}
+
+.value{
+	text-align: center;
+	border: solid 1px;
+	display: inline;
+}
